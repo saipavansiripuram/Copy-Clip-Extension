@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+    "name": "CopyClip Extension",
+  "version": "1.0",
+  "description": "A simple browser extension designed to store and manage frequently used links or text. The extension allows users to save and organize links or text that they frequently access or reference. It provides a user-friendly interface to add, view, and remove stored items easily. Users can access the stored links or text whenever they need them, making it convenient to manage and retrieve regularly used content.",
+  // "permissions": ["activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+  "manifest_version": 3
+},
+ "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+ "permissions": [
+    "clipboardWrite",
+    "storage"
+  ]
+}
+
+// {
+//   "manifest_version": 3,
+//   "name": "My Link Extension",
+//   "version": "1.0",
+//   "description": "A simple extension to store and manage links.",
+//   "action": {
+//     "default_popup": "popup.html",
+//     "default_icon": {
+//       "16": "icon16.png",
+//       "48": "icon48.png",
+//       "128": "icon128.png"
+//     }
+//   },
+//   "permissions": [
+//     "clipboardWrite",
+//     "storage"
+//   ]
+// }
