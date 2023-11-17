@@ -29,6 +29,11 @@ li {
   margin-bottom: 5px;
 }
 
+.name-text {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
 input {
   flex: 1;
   padding: 10px;
